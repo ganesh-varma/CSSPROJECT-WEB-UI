@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #F7F7F7;
+}
+.header{
+    height: 60px;
+    color: black;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 4px #67676729;
+   
+    padding: 15px;
+}
+.headerm{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.list{
+    color: #00A5EC;
+    font-weight: bold;
+    margin-left: 8px;
+
+}
+.tasks{
+    color: #424242;
+    font-weight: bold;
+}
+.addnewtaskicon{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 156px; 
+    justify-content:flex-end;
+}
+.icon a{
+    text-decoration: none;
+}
+.icon{
+    color: #00A5EC;
+    margin-right: 20px;
+    /* text-decoration: none; */
+    
+}
+.iconlink i {
+    font-size: 30px;
+}
+.iconlink{
+    color: #00A5EC;
+    font-size: 30px;
+}
+.addnewtask{
+    font-size: x-large;
+
+}
+.maincontainer{
+    margin-left:130px;
+    margin-right: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.maincontainer a{
+    text-decoration: none;
+}
+.maincontainer hr{
+    color: #c8c8c8;
+}
+.card1:hover
+{
+    box-shadow: 0px 0px 10px 4px #C2C2C2;
+}
+.card1
+{
+    width: 352px;
+    height:360px;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    margin: 30px;
+}
+.item1{
+    display: flex;
+    flex-wrap: wrap;
+    color: #C2C2C2;
+   padding-left: 20px;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin:20px;
+}
+.card1h{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #00A5EC;
+}
+
+p{
+    font-size: larger;
+}
+.item2{
+    color: #424242;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin:20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box{
+    border: 2px solid #EDEDED;
+    color: #F7F7F7;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+@media  all and (max-width: 600px) {
+
+    .headerm{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .addnewtaskicon .icon span{
+        display: none;
+    }
+    .maincontainer{
+        margin-left: 0px;
+    }
+    .addnewtaskicon {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .card1{
+        width: 365px;
+        margin: 10px;
+    }
+    .icon{
+        margin-right: 0px;
+    }
+  }
